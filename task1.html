@@ -1,0 +1,48 @@
+<!DOCTYPE  HTML>
+<HTML>
+	<head>
+		<style>
+		th
+		{
+			background-color:skyblue;
+		}
+
+		
+	    </style>
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("td").click(function(){
+        $(this).empty();
+        $(this).css('backgroundColor', 'green');
+
+    });
+});
+</script>
+	</head>
+<body>
+	<table border=1>
+		<tr><th>First Name</th>
+			<th>Last Name</th>
+			<th>Email</th>
+
+		</tr>
+		<tr>
+			<td>Alejandro</td>
+			<td>Gervasio</td>
+			<td>alejandro@domain.com</td>
+		</tr>
+		<tr>
+			<td>John</td>
+			<td>Doe</td>
+			<td>John@domain.com</td>
+		</tr>
+		<tr>
+			<td>Susan</td>
+			<td>Northon</td>
+			<td>Susan@domain.com</td>
+		</tr>
+		
+	</table>
+</body>
+</HTML>
